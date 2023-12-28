@@ -1,0 +1,42 @@
+<!<!DOCTYPE html>
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Campo CFRM</title>
+        <link rel="icon" href="../img/icons/favicon.png" type="image" sizes="64x64">
+        <link href="../css/campo.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="../index.html">Inicio</a>
+    <a href="../pages/alineacion.html">Alineación</a>
+    <a href="../pages/campo.html">Campo</a>
+  </div>
+
+  <span style="font-size:40px;cursor:pointer;margin-left:10px;color:white" onclick="openNav()">&#9776;</span>
+
+  <div id="main">
+      <video autoplay muted loop id="myVideo">
+      <source src="../videos/mejores-momentos.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+      </video>
+
+    <div class="content">
+      <div class="clearfix">
+        <div class="container" style="width:75%;">
+          <h1>Estadio Cerro del Espino</h1>
+          <p>Situado en la Ciudad Deportiva de Atlético de Madrid en la ciudad de Majadahonda (Madrid), tiene una capacidad para alrededor de 3.000 espectadores. El Rayo Majadahonda, un equipo modesto pero con gran pasión, ha hecho del Estadio Municipal su hogar, llenándolo con la energía y la emoción de sus seguidores en cada partido. Es un lugar donde los aficionados se reúnen para apoyar a su equipo local y disfrutar del fútbol en un ambiente íntimo y cercano.</p>
+          <button id="myBtn" onclick="myFunction()">Pausar</button>
+        </div>
+        <div class="container" style="width:25%;height:400px;">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.799932640225!2d-3.862847023986977!3d40.45756487143295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41845647e42003%3A0x76bafd525a515134!2sEstadio%20de%20F%C3%BAtbol%20del%20Rayo%20Majadahonda!5e0!3m2!1ses!2ses!4v1703704769551!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+    <script src="../scr/video.jav"></script>
+  </div>
+</body>
